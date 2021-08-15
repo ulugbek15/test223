@@ -1,0 +1,33 @@
+.world {
+    & .container {
+        background-image: url('../images/beach-road.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-size: 1680px 1000px;
+        padding-top: 285px;
+        padding-left: 135px;
+        padding-bottom: 381px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 84px;
+        line-height: 112px;
+        color: #2C2C2C;
+        width: 804px;
+        margin-bottom: 50px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background: #FF715B;
+        padding: 18px 36px;
+    }
+}

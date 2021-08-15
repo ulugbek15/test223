@@ -1,0 +1,138 @@
+.destination {
+    padding-top: 121px;
+    margin-bottom: 165px;
+
+    & .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        color: #2C2C2C;
+        margin-bottom: 100px;
+    }
+
+    &__link {
+        width: 240px;
+        height: 64px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background: #FF715B;
+        display: inline-block;
+        margin-top: 190px;
+        padding-top: 20px;
+    }
+
+    &__btn {
+        width: 50px;
+        height: 50px;
+        background: #FF715B;
+        border: none;
+        margin-left: 15px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--box {
+            background: #FFFFFF;
+            box-shadow: 0px 10px 25px rgba(215, 190, 190, 0.2);
+            // width: 400px;
+            // height: 105px;
+            padding: 20px 35px 20px 34px;
+            display: flex;
+            align-items: center;
+        }
+
+
+
+        &--item {
+            padding-top: 482px;
+            padding-left: 51px;
+            width: 450px;
+            height: 535px;
+            margin-right: 30px;
+        }
+
+        &--item:first-child {
+            transform: translateY(200px);
+        }
+
+        &--item:last-child {
+            margin-right: 0;
+            transform: translateY(200px);
+        }
+
+        &--city {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+            color: #000000;
+            margin-bottom: 17px;
+        }
+
+        &--price {
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FF715B;
+            margin-right: 30px;
+        }
+
+        &--5k {
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #A79997;
+        }
+    }
+
+}
+
+
+
+.moon {
+    width: 450px;
+    height: 535px;
+    display: inline-block;
+    background-image: url('../images/moon.png');
+    background-repeat: no-repeat;
+    background-size: 450px 535px;
+}
+
+.castle {
+    width: 450px;
+    height: 535px;
+    display: inline-block;
+    background-image: url('../images/castle.png');
+    background-repeat: no-repeat;
+    background-size: 450px 535px;
+}
+
+.bridge {
+    width: 450px;
+    height: 535px;
+    display: inline-block;
+    background-image: url('../images/bridge.png');
+    background-repeat: no-repeat;
+    background-size: 450px 535px;
+}
+

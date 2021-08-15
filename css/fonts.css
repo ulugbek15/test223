@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('../fonts/ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/noto-serif-v11-latin-regular.woff2') format('woff2'),
+         url('../fonts/noto-serif-v11-latin-regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/noto-serif-v11-latin-700.woff2') format('woff2'),
+         url('../fonts/noto-serif-v11-latin-700.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Serif JP';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/noto-serif-jp-v8-latin-500.woff2') format('woff2'),
+         url('../fonts/noto-serif-jp-v8-latin-500.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Serif JP';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/noto-serif-jp-v8-latin-600.woff2') format('woff2'),
+         url('../fonts/noto-serif-jp-v8-latin-600.woff') format('woff');
+  }

@@ -1,0 +1,29 @@
+.advertising {
+    margin-bottom: 180px;
+
+    & .container {
+        padding-top: 157px;
+        padding-bottom: 157px;
+        padding-left: 107px;
+
+
+        background-image: url('../images/flying.png'), url('../images/banner.svg');
+        background-repeat: no-repeat;
+        background-size: 1680px 550px;
+        background-position: right top;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 65px;
+        color: #2C2C2C;
+        width: 619px;
+        margin-bottom: 60px;
+    }
+
+    &__link {
+        margin-right: 27px;
+    }
+}

@@ -1,0 +1,102 @@
+.proffers {
+padding-bottom: 180px;
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--item {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 44px;
+            width: 326px;
+            height: 326px;
+            background: #F8F8F8;
+            margin-right: 30px;
+        }
+
+        &--item:first-child {
+            padding-top: 30px;
+        }
+
+        &--item:nth-child(3) {
+            background: #FFFFFF;
+            box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+        }
+
+        &--item:last-child{
+            margin-right: 0;
+        }
+
+        &--span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #2C2C2C;
+            margin-bottom: 20px;
+        }
+
+        &--text {
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #A79997;
+            width: 250px;
+        }
+    }
+}
+
+.map::before {
+    content: "";
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-size: 128px 128px;
+    margin-bottom: 10px;
+}
+
+.binoculars::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('../images/binocular.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 24px;
+}
+
+.backpack::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('../images/backpack.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 24px;
+}
+
+.guitar::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('../images/guitar.png');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 24px;
+}
